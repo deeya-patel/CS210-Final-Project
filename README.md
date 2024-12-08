@@ -46,7 +46,7 @@ The following Python libraries are used:
 6. Explore Further Details about the Disease: Web scrape for the disease's Wikipedia page.
 
 ## Key Functions
-`clopper_pearson_exact_method(cases, pop, alpha = 0.05)`: Calculates the lower and upper bound of 95% confidence interval for the incidence rate of the disease, given the case count and population of the county.
+`clopper_pearson_exact_method(cases, pop, alpha = 0.05)`: Calculates the lower and upper bound of 95% confidence interval for the incidence rate of the disease, given the case count and population of the county.  
 `search_wiki(disease)`: Returns the link for the Wikipedia page about the disease including its causes, signs and symptoms, treatment options, and more.
 
 
