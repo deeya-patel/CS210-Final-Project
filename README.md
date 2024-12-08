@@ -27,7 +27,30 @@ The following Python libraries are used:
      
 ## Getting Started
 1. Clone the repository:
+   ```bash
    git clone <repository-url>
-2. Navigate to the project folder:
+3. Navigate to the project folder:
+   ```bash
    cd communicable_disease_analysis_across_california_counties
+
+## Usage
+1. Generate Cleaned CSV File: Clean the data for analysis and insert rows for Sex = 'Other'
+2. Create Data Visualizations: Visualize trends in the data with the scatter plots produced.
+3. Run Prediction Models and Evaluate: 
+   * Predict rates with the ARIMA model with previous data.
+   * Show poor prediction with Linear Regression model.
+   * Show baseline predictions with baseline model.
+   * Evaluate models with mean squared/absolute error and/or r2 score.
+4. Database Querying: Receive responses to common questions regarding the data.
+5. User Inquiry: Input disease, county, and sex of choice to receive details about the case counts until 2022.
+6. Explore Further Details about the Disease: Web scrape for the disease's Wikipedia page.
+
+## Key Functions
+`clopper_pearson_exact_method(cases, pop, alpha = 0.05)`: Calculates the lower and upper bound of 95% confidence interval for the incidence rate of the disease, given the case count and population of the county.
+`search_wiki(disease)`: Returns the link for the Wikipedia page about the disease including its causes, signs and symptoms, treatment options, and more.
+
+
+
+
+
 
