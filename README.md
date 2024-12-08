@@ -1,5 +1,5 @@
 # Communicable Disease Analysis Across California Counties
-This repository contains Python code for building and analyzing a sales forecasting model using historical data. The project is designed to support both batch and real-time sales forecasting using the ARIMA model.
+This repository contains Python code for building and analyzing rate prediction models using previous data as well as user interactive database querying.
 ## Features
 1. Reading data from a CSV file.
 2. Data cleaning and data insertion.
