@@ -50,7 +50,7 @@ The following Python libraries are used:
 `search_wiki(disease)`: Returns the link for the Wikipedia page about the disease including its causes, signs and symptoms, treatment options, and more.
 
 ## Video Demo
-Click [here]([https://drive.google.com/file/d/your-file-id/view](https://drive.google.com/file/d/1qQ19F9aj8TB_0dy9YpAQfrTEzMS5oNf-/view?usp=sharing) to watch a demonstration video of the project.
+Click [here](https://drive.google.com/file/d/1qQ19F9aj8TB_0dy9YpAQfrTEzMS5oNf-/view?usp=sharing) to watch a demonstration video of the project.
 
 
 
