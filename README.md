@@ -31,7 +31,7 @@ The following Python libraries are used:
    git clone <repository-url>
 3. Navigate to the project folder:
    ```bash
-   cd communicable_disease_analysis_across_california_counties
+   cd Communicable-Disease-Analysis-Across-California-Counties
 
 ## Usage
 1. Generate Cleaned CSV File: Clean the data for analysis and insert rows for Sex = 'Other'
